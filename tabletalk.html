@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="navbar.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            /* Global styles */
+            body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #333;
+            }
+
+            h1, h2, h3 {
+            margin: 0;
+            }
+
+            h2{
+            text-align: center;
+            margin-bottom: 1rem;
+            margin-top: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+            }
+
+            p {
+            margin: 0 0 1rem;
+            }
+
+            img {
+            max-width: 100%;
+            height: auto;
+            }
+
+            .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+            justify-content: center;
+            align-items: center;
+            margin: 50px;
+            }
+
+            /* Blog styles */
+            .blog {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2rem;
+            padding-top: 50px;
+            }
+
+            .blog .post {
+            flex-basis: calc(50% - 1rem);
+            margin-bottom: 2rem;
+            }
+
+            .blog .post .image {
+            position: relative;
+            margin-bottom: 1rem;
+            }
+
+            .blog .post .image img {
+            display: block;
+            }
+
+            .blog .post .image .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 0.5rem;
+            }
+
+            .blog .post .content {
+            margin-left: 1rem;
+            }
+
+            .blog .post .content h2 {
+            margin-bottom: 0.5rem;
+            }
+
+            /* Responsive styles */
+            @media (max-width: 768px) {
+            .blog .post {
+                flex-basis: 100%;
+            }
+            }
+            </style>
+
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <div class="container">
+            <div class="blog">
+                <div class="post">
+                    <div class="image">
+                        <img src="photos/mee_goreng.jpg" alt="Malaysian food">
+                        <div class="caption">Malaysian food</div>
+                    </div>
+                    <div class="content">
+                        <h2 style="color: black;">Malaysian Food vs Singaporean Food</h2>
+                        <p>As a Malaysian, I am often asked about the differences between Malaysian food and Singaporean food. While both countries offer a variety of delicious dishes, there are some key differences that set them apart.</p>
+                        <p>Firstly, Malaysian food is generally spicier than Singaporean food. We love our chilli and often add it to our dishes to give them that extra kick. Singaporean food, on the other hand, tends to be milder in flavour.</p>
+                        <p>Another difference is the use of coconut milk in Malaysian food. Many of our curries and desserts are made with coconut milk, which gives them a rich and creamy texture. Singaporean food, however, tends to use lighter ingredients like soy sauce and vinegar.</p>
+                        <p>Overall, both Malaysian and Singaporean food are delicious in their own right. It all comes down to personal preference and what you are in the mood for!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

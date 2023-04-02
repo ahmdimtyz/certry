@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(173, 45, 73);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 50px;
+    color: rgb(222, 170, 92);
+    text-shadow: 20px;
+    font-family: 'Satisfy', cursive;
+    font-size: 80px;
+    text-shadow: 2px 2px #340808;
+  }
+
+  h2, .home2{
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+    color: rgb(222, 170, 92);
+    text-shadow: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    text-shadow: 2px 2px #340808;
+  }
+
+  .container {
+    background-color: rgb(220, 159, 142); 
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 2px 2px #868383;
+  }
+  
+  .photo {
+    flex: 1;
+  }
+  
+  .text {
+    flex: 1;
+    padding: 30px;
+  }
+
+  .text .menu {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    top: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+
+
+
+  
