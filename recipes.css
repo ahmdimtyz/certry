@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600&family=Raleway:ital,wght@0,300;0,400;1,400&display=swap');
+
+.menu{
+    font-family: 'Noto Serif SC', serif;
+}
+
+.fooddesc {
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+}
+
+.button {
+    display: inline-block;
+    background-color: #c17a22;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .button:hover {
+    background-color: #ff9800;
+    color: #fff;
+    transform: scale(1.05);
+  }

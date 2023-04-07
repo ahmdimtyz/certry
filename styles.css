@@ -34,7 +34,8 @@ h1 {
     align-items: center;
     margin-left: 20px;
     margin-right: 20px;
-    box-shadow: 2px 2px #868383;
+    box-shadow: 2px 2px #f17f7f;
+    margin-bottom: 50px;
   }
   
   .photo {
