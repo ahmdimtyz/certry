@@ -26,3 +26,86 @@
     color: #fff;
     transform: scale(1.05);
   }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    }
+
+    /* Blog styles */
+    .blog {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding-top: 10px;
+    }
+
+    .blog .post {
+    flex-basis: calc(55% - 1rem);
+    margin-bottom: 2rem;
+    }
+
+    .blog .post .image {
+    margin-bottom: 1rem;
+    justify-self: center;
+    }
+
+    .blog .post .image img {
+    display: flex;
+    }
+
+    .blog .post .content h2 {
+    margin-bottom: 0.5rem;
+    }
+
+    .name{
+        font-family: 'Noto Serif SC', serif;
+        font-size: 50px;
+        color: #000000;
+        text-align: center;
+        background-color: #e0814e;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .test{
+    display: flex;
+    justify-content: center;
+    }
+
+    .desc {
+        font-size: 22px;
+        text-align: justify;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .text1{
+        font-size: 28px;
+        font-weight: 550;
+    }
+
+    .text2{
+        font-size: 25px;
+        text-decoration: underline;
+    }
+
+    .text3{
+        font-size: 23px;
+    }
+
+    .text4 {
+        font-size: 22px;
+    }
