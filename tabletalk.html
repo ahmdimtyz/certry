@@ -3,6 +3,7 @@
     <head>
         <script src="navbar.js"></script>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="recipes.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             /* Global styles */
@@ -29,90 +30,145 @@
 
             p {
             margin: 0 0 1rem;
+            color: black;
+            font-size: 22px;
             }
 
             img {
-            max-width: 100%;
+            width: 300px;
             height: auto;
             }
 
-            .container {
+            .container2 {
             max-width: 100%;
             margin: 0 auto;
             padding: 1rem;
-            justify-content: center;
-            align-items: center;
             margin: 50px;
+            background-color: rgb(220, 159, 142);
             }
 
-            /* Blog styles */
-            .blog {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 2rem;
-            padding-top: 50px;
+            .title {
+                font-size: 30px;
+                text-decoration: underline; 
             }
 
-            .blog .post {
-            flex-basis: calc(50% - 1rem);
-            margin-bottom: 2rem;
+            a{
+                font-size: 22px;
             }
 
-            .blog .post .image {
-            position: relative;
-            margin-bottom: 1rem;
+            li{
+                font-size: 22px;
+                margin-bottom: 20px;
+                padding-right: 25px;
             }
 
-            .blog .post .image img {
-            display: block;
-            }
-
-            .blog .post .image .caption {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background-color: rgba(0, 0, 0, 0.7);
-            color: #fff;
-            padding: 0.5rem;
-            }
-
-            .blog .post .content {
-            margin-left: 1rem;
-            }
-
-            .blog .post .content h2 {
-            margin-bottom: 0.5rem;
-            }
-
-            /* Responsive styles */
-            @media (max-width: 768px) {
-            .blog .post {
-                flex-basis: 100%;
-            }
-            }
             </style>
 
     </head>
     <body>
         <div id="navbar"></div>
-        <div class="container">
-            <div class="blog">
-                <div class="post">
-                    <div class="image">
-                        <img src="photos/mee_goreng.jpg" alt="Malaysian food">
-                        <div class="caption">Malaysian food</div>
-                    </div>
-                    <div class="content">
-                        <h2 style="color: black;">Malaysian Food vs Singaporean Food</h2>
-                        <p>As a Malaysian, I am often asked about the differences between Malaysian food and Singaporean food. While both countries offer a variety of delicious dishes, there are some key differences that set them apart.</p>
-                        <p>Firstly, Malaysian food is generally spicier than Singaporean food. We love our chilli and often add it to our dishes to give them that extra kick. Singaporean food, on the other hand, tends to be milder in flavour.</p>
-                        <p>Another difference is the use of coconut milk in Malaysian food. Many of our curries and desserts are made with coconut milk, which gives them a rich and creamy texture. Singaporean food, however, tends to use lighter ingredients like soy sauce and vinegar.</p>
-                        <p>Overall, both Malaysian and Singaporean food are delicious in their own right. It all comes down to personal preference and what you are in the mood for!</p>
-                    </div>
-                </div>
+        <h1>Table Talk</h1>
+        <div class="container2">
+            <p class="title">Cooking Tips</p>
+            <p>Want to be good at cooking? Want to improve your skills in cooking? This video below might be useful for you. Stay tuned!</p>
+            <a href="https://youtu.be/Jhwk3GLxsTc" target="_blank">Learn More</a>
+        </div>
+        <div class="container2">
+            <p class="title">6 Tips to remove the black crust on your pan</p>
+            <ol>
+                <li style="display: flex; align-items: top;">
+                  <img src="photos/tabletalk/Picture 1.jpg" alt="Salt" style="width: 600px; margin-right: 20px;">
+                  <span>1. Salt <br><br>Salt is one of the substances that is conveniently available in your kitchen. The method to remove the black crust in your pan or other cooking utensils is by heating the water in that pan and adding a bit of salt. Then, scrub it with the spatula while scraping the pan.</span>
+                </li>
+                <li style="display: flex; align-items: top;">
+                    <img src="photos/tabletalk/Picture 2.jpg" alt="Soda" style="width: 455px; margin-right: 20px;">
+                    <span>2. Bicarbonate Soda <br><br>Bicarbonate of soda can be used together with lemon or  vinegar. Heat the water in the pan until it boils and add some bicarbonate soda. Leave it at room temperature for a while before washing the pan.</span>
+                </li>
+                <li style="display: flex; align-items: top;">
+                    <img src="photos/tabletalk/Picture 3.gif" alt="Vinegar" style="width: 200px; margin-right: 20px;">
+                    <span>3. Vinegar <br><br>Boil vinegar in the pan or pot that has the black crust. Soak it for a while until the pot is really cool. Then, scrub as usual. </span>
+                </li>
+                <li style="display: flex; align-items: top;">
+                    <img src="photos/tabletalk/Picture 4.jpg" alt="Lemon" style="width: 500px; margin-right: 20px;">
+                    <span>4. Lemon <br><br>Lemon is also known as a good ingredient as a detergent. The method to use it for removing the black crust in your pan is easy. First, cut the lemon and boil it with its peel. Leave it to cool for 3-4 hours and wash the pot as usual. </span>
+                </li>
+                <li style="display: flex; align-items: top;">
+                    <img src="photos/tabletalk/Picture 5.jpg" alt="Potato" style="width: 350px; margin-right: 20px;">
+                    <span>5. Potato peel<br><br>Put the potato peels in the pot and add water until it covers the black crust in the pot. Then, heat the water until it boils. The crust in the pot will come off by itself.</span>
+                </li>
+                <li style="display: flex; align-items: top;">
+                    <img src="photos/tabletalk/Picture 6.jpg" alt="Assam" style="width: 270px; margin-right: 20px;">
+                    <span>6. Freshly Dried Asam Keping<br><br>Take a handful of freshly-dried asam keping and put it into the rusty pan/pot that you want to remove the crust. Let it boil for a while. Then, wait for it to cool and rub the surface of the pan or pot. </span>
+                </li>
+            </ol>
+        </div>
+        <div class="container2">
+            <div style="padding-left:20px;">
+            <p class="title">Diet foods for night meal</p>
+            <ol>
+                <li>
+                    <span style="font-weight: bold;">Meat</span><br>Protein with non-fat contains is not only good for your muscles but it also helps you to feel full without gaining weight. It can be cooked on a grill or baked.
+                </li>
+                <li>
+                    <span style="font-weight: bold;">Grains</span><br>Grains such as multi-grains and rice crispies are some of the diet food at night. These type of foods can be easily digestible and filling!
+                </li>
+                <li>
+                    <span style="font-weight: bold;">Fruits</span><br>Some of fruits that are suitable to be taken late at night are banana, apple, plum, grape and mango. Besides being eaten directly, these fruits can also be processed as a juice or smoothie that can fill the stomach. Easy, delicious and healthy! 
+                </li>
+                <li>
+                    <span style="font-weight: bold;">Legumes</span><br> is the food that contains the highest protein sources after grains and lentils. You can try to eat almond, walnut, pistachio which helps to reduce hunger as well as provide Vitamin E source for your body.
+                </li>
+                <li>
+                    <span style="font-weight: bold;">Milk</span><br>A glass of milk mixed with almond is the best choices for you to provide energy for your body during late night. Not just that, fresh milk or powdered milk also good for you body as it cab help you to feel full.
+                </li>
+                <li>
+                    <span style="font-weight: bold;">Oatmeal</span><br>Oats are a source of food that contain low fat levels and are nutritious. Adding with fruits and milk will make your meal more delicious as well as nutritious. 
+                </li>
+            </ol>
+            </div>
+        </div>
+        <div class="container2">
+            <div style="padding-left:20px;">
+            <p class="title">How to make the best meringue pavlova? - by Cik Ain.</p>
+            <p>Looking for tips to make meringue pavlova? This <a href="https://youtu.be/GT4xr6X2X4M">video</a> might be helpful for you! &nbsp;</p>
+            </div>
+        </div>
+        <div class="container2">
+            <div style="padding-left:20px;">
+            <p class="title">6 Fruits to prevent diabetes</p>
+            <ol>
+                <li style="display: flex; align-items: top;">
+                  <img src="photos/tabletalk/Picture 7.jpg" alt="Pear" style="width: 400px; margin-right: 20px;">
+                  <span>1. Pears <br><br>This fruit is enriched with high fibers that are good to regulate your blood sugar levels in the body. Besides, pears are also able to lower the level of harmful cholesterol in your body.</span>
+                </li>
+                <li style="display: flex; align-items: top;">
+                    <img src="photos/tabletalk/Picture 8.jpg" alt="Apple" style="width: 295px; margin-right: 20px;">
+                    <span>2. Apples <br><br>Research from Harvard School of Public Health shows individual that take 5 apple in a weekhas much lower risk of getting diabetes.</span>
+                </li>
+                <li style="display: flex; align-items: top;">
+                    <img src="photos/tabletalk/Picture 9.jpg" alt="Peach" style="width: 430px; margin-right: 20px;">
+                    <span>3. Peach <br><br>This fruit is good for an individual to prevent diabetes as well as for diabetes patients as it contains high level of natural fibers, vitamin C and also ia a source of antioxidant that good for the body. </span>
+                </li>
+                <li style="display: flex; align-items: top;">
+                    <img src="photos/tabletalk/Picture 10.jpg" alt="Orange" style="width: 375px; margin-right: 20px;">
+                    <span>4. Oranges<br><br>Orange can help to slow down the absorption of excess sugar in the body. Besides, the Vitamin C content in it is also good enough to keep the heart functioning well.</span>
+                </li>
+                <li style="display: flex; align-items: top;">
+                    <img src="photos/tabletalk/Picture 11.jpg" alt="Blue" style="width: 450px; margin-right: 20px;">
+                    <span>5. Blueberries<br><br>Based on the result of the study by the American Diabetes Association, the individual who practices the consumption of blueberries regularly has a 23 percent lower risk of suffering from diebetes.</span>
+                </li>
+                <li style="display: flex; align-items: top;">
+                    <img src="photos/tabletalk/Picture 12.jpg" alt="cherry" style="width: 470px; margin-right: 20px;">
+                    <span>6. Cherry<br><br>Cherry fruit contains antioxidants known as anthocyanin and play the role as anti-inflammation as well as anti-aging. Consuming 10 cherries a day also helps stabilize blood sugar levels in your body.</span>
+                </li>
+            </ol>
+            </div>
+        </div>
+        <div class="container2">
+            <div style="padding-left:20px;">
+                <p class="title">Malaysia’s roti canai is world’s second-best street food </p>
+                <p>Did you know that roti canai was listed as the second best street food in the world. Here is the article for more information about it.</p>
+                <a target="_blank" href="https://www.freemalaysiatoday.com/category/leisure/food/2023/02/22/malaysias-roti-canai-is-worlds-second-best-street-food/">read here</a>
             </div>
         </div>
     </body>
