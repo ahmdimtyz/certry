@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600&family=Raleway:ital,wght@0,300;0,400;1,400&display=swap');
+
+
+.container3 {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    margin: 50px;
+    background-color: rgb(220, 159, 142);
+    }
+
+.influencer {
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+
+.rate {
+    font-size: 22px;
+    font-family: 'Open sans';
+}
+
+img{
+    width: 45%;
+    padding-bottom: 20px;
+}
+
+.texta{
+    font-size: 28px;
+    font-family: 'Raleway';
+}
+
+li{
+    font-size: 22px;
+    line-height: 2.0;
+}
